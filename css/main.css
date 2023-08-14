@@ -35,6 +35,12 @@
     transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
 }
 
+.carta{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 5%;
+}
+
 .btn-outline-success {
     --bs-btn-color: #0085FC;
     --bs-btn-border-color: #0085FC;
@@ -52,3 +58,7 @@
     --bs-gradient: none;
 }
 
+@media screen and ( max-width: 516px ) {
+
+   
+    }
