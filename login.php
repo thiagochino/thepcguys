@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,24 +9,42 @@
     <title>login</title>
 </head>
 <body class="fondo">
+    z
   <div class="divformulario">   
     <form class="formulario">
       <h2>Iniciar Sesion</h2>
       <br>
         <div class="form-group">
-          <label for="exampleInputEmail1">Ingresar Email</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+          <label for="exampleInputEmail1"><b>&#128231; Ingresar Mail</b></label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ingresar mail">
           <small id="emailHelp" class="form-text text-muted">Nunca compartiremos su correo electroncio con nadie mas.</small>
         </div>
         <div class="form-group">
-          <label for="exampleInputPassword1">Contraseña</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+          <label for="exampleInputPassword1"><b>&#128274; Contraseña</b></label>
+          <input type="password" class="form-control" id="txtpassword" placeholder="Contraseña">
+        </div>
+            <div class="ub1">
+            <input type="checkbox" onclick="verpassword()" >    Mostrar contraseña
         </div>
         <br>
-        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="submit" class="btn btn-primary">Continuar</button>
         <br><br>
-        <p>¿No posees una cuenta? <a href="productos.html" class="link">haz click aqui</a> para crear un cuenta nueva</p>
+        <p>¿No posees una cuenta? <a href="registrarse.html" class="link">haz click aqui</a> para crear un cuenta nueva</p>
       </form>
+
+<script>
+  function verpassword(){
+      var tipo = document.getElementById("txtpassword");
+      if(tipo.type == "password")
+	  {
+          tipo.type = "text";
+      }
+	  else
+	  {
+          tipo.type = "password";
+      }
+  }
+</script>
       
     </div>
 

@@ -1,5 +1,16 @@
 .fondo{
-    background-color: rgb(80, 80, 80);
+    background: #283048;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #859398, #283048);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #859398, #283048); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+
+.ub1{
+text-align:left;
+font-weight: bold;
+
+margin-bottom:0.5em;
+margin-top:0.5em;
 }
 
 .divformulario{
@@ -11,7 +22,7 @@
 }
 
 .formulario{
-    background-color: rgba(0, 133, 252, 0.3);
+    background-color: #0d6efd;
     padding: 3%;
     border-radius: 3%;
     box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
